@@ -1,0 +1,19 @@
+.rodape{
+    background-color: var(--cor-de-fundo);
+    padding-top: 2rem;
+    text-align: center;
+    height: 100%;
+}
+
+.rodape__icones{
+    color: var(--cor-do-texto);
+    font-size: 2.5rem;
+    padding: 2rem 2rem;
+}
+
+.rodape__texto{
+    color: var(--cor-do-texto);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 0;
+}

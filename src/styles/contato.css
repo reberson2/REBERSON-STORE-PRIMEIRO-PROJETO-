@@ -1,0 +1,21 @@
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--fundo-apresentacao);
+    color: var(--cor-do-texto);
+    text-shadow: 1px 1px 5px var(--cor-de-fundo);
+    border-bottom:2px solid var(--cor-do-texto);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.legendas-contato{
+    text-align: center;
+}
+
+.contato__icone{
+    padding-right: 0.6rem;
+    font-size: 1.3rem;
+    vertical-align: middle;
+}

@@ -1,0 +1,48 @@
+.cursos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cor-de-fundo);
+    padding-bottom: 2.5rem;
+    border-bottom:2px solid var(--cor-do-texto);
+}
+
+.cursos__titulo{
+    text-align: center;
+    color: var(--cor-do-texto);
+    text-shadow: 1px 1px 5px var(--cor-de-fundo);
+    margin-bottom: 2.5rem;
+}
+
+.cursos__container{
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 1.5rem;
+}
+
+.cursos__cartao--container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cursos__cartao{
+    margin: 0 3rem;
+    text-align: center;
+}
+
+.cursos__imagem{
+    width: 5rem;
+}
+
+.cursos__titulo--tecnologia{
+    color: white;
+    text-shadow: 1px 1px 5px var(--cor-de-fundo);
+}
+
+@media screen and (min-width: 768px){
+    
+}
